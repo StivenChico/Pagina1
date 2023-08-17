@@ -1,0 +1,33 @@
+*{
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  content: '';
+  display: table;
+  clear: both;
+}
+nav{
+  float: right;
+}
+.menu{
+  width: 1000px;
+  margin: 0 auto;
+}
+nav ul li{
+  list-style: none;
+  text-align: center;
+}
+nav ul li a{
+  margin-left: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: red;  
+}
+.menu img{
+  float:left;
+  width: 200px;
+  height: 120px;
+}

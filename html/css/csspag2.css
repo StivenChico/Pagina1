@@ -1,0 +1,29 @@
+.contenedor{
+  width: 1000px;
+  margin: 70px auto;
+  height: 1000px;
+  
+}
+.title{
+  height: 50px;
+  width: 77%;
+  text-align: center;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  padding-top: 15px;
+  background-color: red
+}
+.aside{
+  float: right;
+  width: 20%;
+  height: 700px;
+  margin: 10px 10px 0 0;
+  background-color: blue;
+}
+.info{
+  float: left;
+  width: 77%;
+  margin: 0px 10px 10px 10px;
+  background-color: yellow;
+
+}
