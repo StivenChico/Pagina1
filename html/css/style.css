@@ -2,8 +2,10 @@
   padding: 0 ;
   margin: 0;
   box-sizing: border-box;
+  font-family: verdana,"Geneva",sans-serif;
 }
 header {
+  background-color: #45B39D;
   width: 100%;
   content: '';
   display: table;
@@ -19,15 +21,42 @@ nav{
 nav ul li{
   list-style: none;
   text-align: center;
+  float: left;
+  margin-left: 20px;
+  padding:20px 15px 10px 15px;
 }
 nav ul li a{
-  margin-left: 20px;
-  padding: 10px;
   text-decoration: none;
-  color: red;  
+  color: white;
+}
+nav ul li:hover{
+  background-color: #117A65 ;
 }
 .menu img{
   float:left;
   width: 200px;
   height: 120px;
 }
+.contenedor{
+  width: 900px;
+  height: 1000px;
+  margin: 20px auto;
+  padding-top:10px;
+  background-color: #FAD7A0;
+}
+.titulo{
+  width: 870px;
+  margin:  5px auto;
+  height: 140px;
+  background-color: #A2D9CE ;
+}
+.info{
+  width: 860px;
+  margin: 10px auto;
+  background-color: #73C6B6 ;
+}
+h1{
+  padding-left: 5%;
+  padding-top: 30px;
+}
+h2{padding-left: 5%}
