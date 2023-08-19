@@ -56,7 +56,21 @@ nav ul li:hover{
   background-color: #73C6B6 ;
 }
 h1{
-  padding-left: 5%;
+  text-align: center;
   padding-top: 30px;
 }
 h2{padding-left: 5%}
+h3{text-indent: 2em;
+  padding: 20px 0 0 0;}
+.p1{
+  text-indent: 1em;
+  margin: 20px 5%;
+}
+.p2{
+  text-indent: 1em;
+  margin: 20px 5%;
+  padding-bottom: 20px;
+}
+iframe{
+  margin: 20px 18% 20px 18%;
+}
